@@ -1,0 +1,655 @@
+/* Enhanced Mobile-Optimized Styles for Microwave Repair Ad */
+
+/* Base Mobile Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+    --primary-color: #e74c3c;
+    --secondary-color: #c0392b;
+    --accent-color: #f39c12;
+    --text-dark: #2c3e50;
+    --text-light: #7f8c8d;
+    --white: #ffffff;
+    --light-gray: #ecf0f1;
+    --dark-gray: #34495e;
+    --success-color: #27ae60;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background-color: var(--white);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Mobile-First Header Banner */
+.ad-banner {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ad-banner h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.tagline {
+    font-size: 0.95rem;
+    opacity: 0.95;
+}
+
+/* Mobile-Optimized Special Offer */
+.special-offer {
+    background: linear-gradient(135deg, #fff5f5, #fff);
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.offer-badge {
+    background: var(--accent-color);
+    color: var(--white);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+}
+
+.special-offer h2 {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.price-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.price-label {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-right: 0.25rem;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin: 0 0.25rem;
+    line-height: 1;
+}
+
+.price-note {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--success-color);
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.offer-description {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+.offer-description strong {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Mobile Gallery */
+.microwave-gallery {
+    margin: 1.5rem 0;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gallery-header h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.gallery-item {
+    background: var(--light-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.image-placeholder {
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder span {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.image-placeholder p {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
+
+/* Mobile Services */
+.services-section {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.services-section h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+.service-item {
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid var(--primary-color);
+    text-align: left;
+}
+
+.service-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-item h4 {
+    font-size: 1rem;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.service-item p {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+/* Mobile Why Choose Us */
+.why-choose-us {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.why-choose-us h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    text-align: left;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+    font-size: 1.2rem;
+    color: var(--success-color);
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.feature-content h4 {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.feature-content p {
+    color: var(--text-light);
+    font-size: 0.8rem;
+    line-height: 1.3;
+}
+
+/* Mobile How It Works */
+.how-it-works {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.how-it-works h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 auto 0.75rem;
+}
+
+.step-content h4 {
+    font-size: 1rem;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.step-content p {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+/* Mobile CTA Section */
+.cta-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cta-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.cta-section p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+    line-height: 1.4;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.cta-primary,
+.cta-secondary {
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-primary {
+    background: var(--white);
+    color: var(--primary-color);
+}
+
+.cta-secondary {
+    background: var(--success-color);
+    color: var(--white);
+}
+
+.cta-primary:active,
+.cta-secondary:active {
+    transform: scale(0.98);
+}
+
+.cta-note {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    line-height: 1.3;
+}
+
+/* Mobile Brands */
+.brands-section {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.brands-section h3 {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.brand-item {
+    background: var(--light-gray);
+    padding: 0.75rem 0.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 0.85rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile Contact Info */
+.contact-info {
+    background: var(--light-gray);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.contact-details h4 {
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+}
+
+.contact-details p {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+/* Mobile Footer */
+.ad-footer {
+    background: var(--dark-gray);
+    color: var(--white);
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+.ad-footer p {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    font-size: 0.85rem;
+}
+
+/* Touch-Friendly Enhancements */
+button,
+.cta-primary,
+.cta-secondary {
+    min-height: 48px;
+    min-width: 48px;
+    touch-action: manipulation;
+}
+
+/* Mobile-Specific Optimizations */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .ad-banner h1 {
+        font-size: 1.3rem;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .brands-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-section {
+        padding: 1.5rem 1rem;
+    }
+}
+
+/* Tablet Optimizations */
+@media (min-width: 481px) and (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brands-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Large Mobile/Small Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .brands-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cta-buttons {
+        flex-direction: row;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+        width: auto;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Prevent Text Selection on Buttons */
+button,
+.cta-primary,
+.cta-secondary {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Loading Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.service-item,
+.feature-item,
+.brand-item {
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Safe Area for Notch Phones */
+@supports (padding: max(0px)) {
+    .ad-banner {
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
+        padding-top: max(1.5rem, env(safe-area-inset-top));
+    }
+
+    .cta-section {
+        padding-left: max(2rem, env(safe-area-inset-left));
+        padding-right: max(2rem, env(safe-area-inset-right));
+        padding-bottom: max(2rem, env(safe-area-inset-bottom));
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white: #1a1a1a;
+        --light-gray: #2d2d2d;
+        --text-dark: #f0f0f0;
+        --text-light: #b0b0b0;
+    }
+
+    .special-offer {
+        background: linear-gradient(135deg, #2d1f1f, #1a1a1a);
+    }
+
+    .image-placeholder {
+        background: linear-gradient(135deg, #2d2d2d, #3d3d3d);
+    }
+
+    .why-choose-us {
+        background: linear-gradient(135deg, #2d2d2d, #3d3d3d);
+    }
+
+    .contact-info {
+        background: #2d2d2d;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .cta-buttons,
+    .ad-footer {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+}
