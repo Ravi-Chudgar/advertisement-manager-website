@@ -1,0 +1,153 @@
+{
+  "advertisement": {
+    "title": "Expert Microwave Repair Services - Diagnosis Just ₹250",
+    "summary": "Professional microwave repair with complete diagnosis and root cause detection for just ₹250! If you proceed with repair, the diagnosis fee is fully deducted from your total bill.",
+    "categories": [
+      "Appliance Repair",
+      "Microwave Repair", 
+      "Home Services",
+      "Electrical Services"
+    ],
+    "keywords": [
+      "microwave repair",
+      "oven repair",
+      "appliance repair",
+      "home appliance service",
+      "microwave not heating",
+      "microwave not working",
+      "kitchen appliance repair",
+      "same day repair",
+      "expert technician",
+      "genuine parts"
+    ],
+    "offer": {
+      "title": "Special Diagnosis Offer",
+      "description": "Complete microwave diagnosis and root cause detection for ₹250. Fee deducted if you proceed with repair!",
+      "couponCode": "MICRO250",
+      "termsConditions": [
+        "Diagnosis fee of ₹250 applies to all microwave brands and models",
+        "Full deduction from repair cost if customer proceeds with repair",
+        "Valid for residential and commercial microwaves",
+        "Service available in [Your City/Area] and surrounding regions",
+        "Offer valid until [Date]"
+      ]
+    },
+    "services": [
+      {
+        "name": "Power Issues",
+        "description": "Microwave not turning on, no power, electrical problems"
+      },
+      {
+        "name": "Heating Problems", 
+        "description": "Not heating food, uneven heating, weak performance"
+      },
+      {
+        "name": "Noise Issues",
+        "description": "Loud noises, grinding sounds, unusual vibrations"
+      },
+      {
+        "name": "Door Problems",
+        "description": "Door not closing, latch issues, safety concerns"
+      },
+      {
+        "name": "Timer & Display",
+        "description": "Timer not working, display issues, control panel problems"
+      },
+      {
+        "name": "Turntable Issues",
+        "description": "Turntable not rotating, motor problems"
+      }
+    ],
+    "brandsServiced": [
+      "Samsung",
+      "LG", 
+      "Whirlpool",
+      "Panasonic",
+      "IFB",
+      "Godrej",
+      "Haier",
+      "Bosch"
+    ],
+    "highlights": [
+      "Expert Technicians - Certified professionals",
+      "Genuine Parts - Original replacement parts only",
+      "Transparent Pricing - No hidden charges",
+      "Warranty on Repairs - 30-day warranty",
+      "Same Day Service - Quick turnaround",
+      "Home Service Available - We come to you"
+    ],
+    "contact": {
+      "primaryPhone": "+91 XXXXX XXXXX",
+      "whatsapp": "+91 XXXXX XXXXX",
+      "email": "your-email@example.com",
+      "address": "[Your Complete Address]",
+      "serviceArea": "[Your City/Area] and surrounding regions"
+    },
+    "businessHours": {
+      "monday": "9:00 AM - 7:00 PM",
+      "tuesday": "9:00 AM - 7:00 PM", 
+      "wednesday": "9:00 AM - 7:00 PM",
+      "thursday": "9:00 AM - 7:00 PM",
+      "friday": "9:00 AM - 7:00 PM",
+      "saturday": "9:00 AM - 7:00 PM",
+      "sunday": "Closed"
+    },
+    "callToAction": {
+      "actionType": "CALL",
+      "buttonText": "Call Now",
+      "url": "tel:+91XXXXXXXXXX"
+    },
+    "location": {
+      "name": "[Your Business Name]",
+      "address": "[Your Business Address]",
+      "phone": "+91 XXXXX XXXXX",
+      "website": "https://your-website.com"
+    },
+    "media": [
+      {
+        "type": "IMAGE",
+        "url": "https://example.com/microwave-repair-image.jpg",
+        "altText": "Professional microwave repair service technician working on a microwave oven"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does the ₹250 diagnosis fee cover?",
+        "answer": "The fee covers complete inspection, root cause identification, and a detailed report of what needs to be repaired."
+      },
+      {
+        "question": "How is the diagnosis fee deducted?",
+        "answer": "If you decide to proceed with the repair, the ₹250 diagnosis fee is subtracted from your total repair bill."
+      },
+      {
+        "question": "Do you provide home service?",
+        "answer": "Yes, we provide home service and can come to your location for diagnosis and repair."
+      },
+      {
+        "question": "What brands do you service?",
+        "answer": "We service all major brands including Samsung, LG, Whirlpool, Panasonic, IFB, Godrej, Haier, and Bosch."
+      },
+      {
+        "question": "Is there warranty on repairs?",
+        "answer": "Yes, we provide a 30-day warranty on all repair work and replacement parts."
+      }
+    ],
+    "postingSchedule": {
+      "platform": "Google Business Profile",
+      "postType": "Offer",
+      "frequency": "2-3 times per week",
+      "bestPostingTimes": [
+        "Monday 10:00 AM",
+        "Wednesday 2:00 PM", 
+        "Friday 11:00 AM",
+        "Saturday 10:00 AM"
+      ],
+      "targetAudience": "Homeowners, restaurant owners, anyone with microwave issues"
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/your-business",
+      "instagram": "https://instagram.com/your-business",
+      "twitter": "https://twitter.com/your-business"
+    }
+  }
+}
